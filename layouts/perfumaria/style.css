@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 5px 15px;
+
+    
+    
+    position: fixed;
+}
+
+header h1 {
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header a {
+    margin: 50px;
+    margin-left: 80px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.585) 0px 5px 15px;
+    font-weight: 200;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: rgb(69, 69, 69);
+    font-size: 20px;
+}
+
+.instagram {
+    width: 24px;
+}
+
+.instagram :hover {
+    width: 27px;
+
+}
+
+.user {
+    width: 24px;
+    margin-left: -70px;
+}
+
+.user:hover {
+    width: 27px;
+}
+
+.pesquisa {
+    width: 24px;
+    margin-left: -70px;
+}
+
+.pesquisa:hover {
+    width: 27px;
+}
+.top{
+   padding-top: 300px;
+   padding-left: 80px;
+   padding-bottom: 100px;
+    text-align: center;
+    background-image: url(img/textura-de-vidro-embaçado-numa-sala-quente-texturas-168639921.webp);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.top h1{
+    font-weight: 300;
+    font-size: 80px;
+    
+}
+.top p{
+    font-size: 20px;
+    
+}
+.produtos{
+    height: 50px;
+    display: flex;
+    padding: 40px;
+}
+.essen-caixa{
+    display: inline;
+    border-radius:20px 0px ;
+    padding-bottom: 80px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.essen-caixa p{
+    margin-top: 20px;
+    text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
+    text-align: center;
+    font-weight: 200;
+}
+.essencial{
+    display: inline;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 400px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px;
+}
+.homem-caixa{
+    display: inline;
+    border-radius:20px 0px ;
+    padding-bottom: 80px;
+    width: 400px;
+    margin-left: 30px;
+    
+}
+.homem-caixa p{
+    margin-top: 20px;
+    text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
+    text-align: center;
+    font-weight: 200;
+}
+.homem{
+
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 400px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px;
+}
+
+.elo-caixa{
+    display: inline;
+    position: absolute;
+    border-radius:20px 0px ;
+    padding-bottom: 80px;
+    width: 400px;
+    margin-left:1000px;
+    margin-bottom: 100PX;
+}
+.elo-caixa P{
+    margin-top: 20px;
+    text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
+    text-align: center;
+    font-weight: 200;
+}
+.elo{
+    display: inline;
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 400px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px;
+}
