@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 5px 15px;
+    position: fixed;
+   
+}
+
+header h1 {
+    display: inline;
+    font-size:20px;
+    font-weight: 500;
+}
+
+header a {
+    margin: 50px;       
+    margin-left: 80px;
+    font-size:18px;
+    text-decoration: none;
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.585) 0px 5px 15px;
+    font-weight: 200;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: rgb(69, 69, 69);
+    font-size: 20px;
+}
+
+.instagram {
+    width: 24px;
+}
+
+.instagram :hover {
+    width: 27px;
+
+}
+
+.user {
+    width: 24px;
+    margin-left: -70px;
+}
+
+.user:hover {
+    width: 27px;
+}
+
+.pesquisa {
+    width: 24px;
+    margin-left: -70px;
+}
+
+.pesquisa:hover {
+    width: 27px;
+}
+.top{
+   padding-top: 300px;
+   padding-left: 80px;
+   padding-bottom: 100px;
+    text-align: center;
+    background-image: url(img/textura-de-vidro-embaçado-numa-sala-quente-texturas-168639921.webp);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.top h1{
+    max-width: 80%;
+    min-width: 320px;
+    font-weight: 300;
+    font-size: clamp(50px, 5vw, 80px);
+    
+}
+.top p{
+    max-width: 80%;
+    min-width:320px;
+    font-size: 20px;
+    
+}
+
+.produtos{
+    max-width: 80%;
+    min-width:300px;
+    height: 50px;
+    display: flex;
+    padding: 40px;
+}
+.produt{
+    max-width: 80%;
+    min-width: 320px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.produt h2{
+    text-align: center;
+    max-width: 100%;
+    min-width:320px;
+    margin: auto;
+    padding-top: 50px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+        font-weight: 200;
+        font-size: clamp(50px, 5vw, 80px);
+        text-shadow:  rgba(0, 0, 0, 0.585) 0px 5px 15px;
+        
+}
+.essen-caixa{
+    max-width: 80%;
+    min-width:320px;
+    display: inline;
+    border-radius:20px 0px ;
+    padding-bottom: 80px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.essen-caixa p{
+    max-width: 80%;
+    min-width:320px;
+    margin-top: 20px;
+    text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
+    text-align: center;
+    font-weight: 200;
+}
+.essen-caixa:hover{
+    transition: 5s;
+    width: 500px;
+}
+.essencial{
+    max-width: 80%;
+    min-width:320px;
+    display: inline;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 400px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px;
+}
+.essencial:hover{
+    transition: 5s;
+    width: 500px;
+}
+.homem-caixa{
+    max-width: 80%;
+    min-width:320px;
+    display: inline;
+    border-radius:20px 0px ;
+    padding-bottom: 80px;
+    width: 400px;
+    margin-left: 30px;
+    
+}
+.homem-caixa:hover{
+    transition: 5s;
+    width: 500px;
+}
+.homem-caixa p{
+    max-width: 80%;
+    min-width:320px;
+    margin-top: 20px;
+    text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
+    text-align: center;
+    font-weight: 200;
+}
+.homem{
+    max-width: 80%;
+    min-width:320px;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 400px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px;
+}
+.homem:hover{
+    transition: 5s;
+    width: 500px;
+}
+.elo-caixa{
+    max-width: 80%;
+    min-width:320px;
+    display: inline;
+    border-radius:20px 0px ;
+    padding-bottom: 80px;
+    width: 400px;
+    margin-left: 30px;
+    
+}
+.elo-caixa:hover{
+    transition: 5s;
+    width: 500px;
+}
+.elo-caixa p{
+    max-width: 80%;
+    min-width:320px;
+    margin-top: 20px;
+    text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
+    text-align: center;
+    font-weight: 200;
+}
+.elo{
+    max-width: 80%;
+    min-width:320px;
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px;
+}
+.elo:hover{
+    transition: 5s;
+    width: 400px;
+    height: 400px;
+}
+.femeninos{
+    max-width: 80%;
+    min-width: 320px;
+    margin-top: 400px;
+    margin-bottom: 300px;
+}
+.foto{
+    display: inline;
+    border-radius:20px 0px ;
+    padding-bottom: 80px;
+    max-width: 400px;
+    min-width: 320px;
+    margin-left: 30px;
+}
+.foto p{
+    margin-top: 20px;
+    text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
+    text-align: center;
+    font-weight: 200;
+     max-width: 100%;
+    min-width:320px;
+}
+.foto:hover{
+    transition: 5s;
+    width: 500px;
+}
+.EKOS{
+    
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px;
+}
+
+.EKOS:hover{
+    transition: 5s;
+    width: 400px;
+    height: 400px;
+}
+.UNA{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px; 
+}
+.UNA:hover{
+    transition: 5s;
+    width: 400px;
+    height: 400px;
+}
+.beiond{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px; 
+}
+.beiond:hover{
+    transition: 5s;
+    width: 400px;
+    height: 400px;
+}
