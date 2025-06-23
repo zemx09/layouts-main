@@ -114,11 +114,7 @@ header a:hover {
     padding-bottom: -20px;
     transition: 0.5s;
    }
-   .produtos{
-    margin: auto;
-    align-items: center;
-   }
-  
+
 }
 
 .instagram {
@@ -238,7 +234,7 @@ header a:hover {
     transition: 0.5s;
     width: 300px;
 }
-@media (max-width:768px){
+@media (max-width:1258px){
    .produtos{
     display:flex;
     flex-direction: column;
@@ -249,6 +245,7 @@ header a:hover {
    .masculinos{
     position: relative;
     padding-bottom : 750px;
+    margin:auto;
    }
    .femeninos{
     position: relative;
