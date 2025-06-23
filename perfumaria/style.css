@@ -11,10 +11,12 @@
     font-variation-settings:
         "SOFT" 0,
         "WONK" 0;
+    
 }
 
 header {
     width: 100%;
+    justify-content: space-between;
     background-color: white;
     border: none;
     padding-top: 50px;
@@ -22,6 +24,8 @@ header {
     padding-left: 40px;
     box-shadow: rgba(0, 0, 0, 0.205) 0px 5px 15px;
     position: fixed;
+    z-index: 999;
+    
    
 }
 
@@ -46,12 +50,76 @@ header a:hover {
     color: rgb(69, 69, 69);
     font-size: 20px;
 }
+.nav-links {
+    margin-left: 90px;
+    margin-bottom: 40px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+  .menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+   
+
+@media (max-width: 1258px) {
+    .nav-links {
+    display:none;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .nav-links li {
+    margin: 20px 0;
+  }
+    header h1{
+        display: block;
+        
+    }
+    .menu-icon {
+    display: block;
+    position:fixed  ;
+    left: 4px;
+    top:41px;
+    padding:3px;
+    
+  }
+    .instagram{
+    display: none;
+   }
+   .user{
+    display: none;
+   }
+   .pesquisa{
+    display: none;
+   }
+   .nav-links.active{
+    display: flex;
+    z-index: 999;
+    background-color:#fff;
+    margin-top: 20px;
+    padding-bottom: -20px;
+    transition: 0.5s;
+   }
+   
+}
 
 .instagram {
     width: 24px;
 }
 
-.instagram :hover {
+.instagram:hover {
     width: 27px;
 
 }
@@ -84,14 +152,15 @@ header a:hover {
      box-shadow: rgba(100, 100, 111, 0.432) 0px 7px 29px 0px;
 }
 .top h1{
-    max-width: 80%;
+    max-width: 100%;
     min-width: 320px;
     font-weight: 300;
     font-size: clamp(50px, 5vw, 80px);
     margin: auto;
 }
 .top p{
-    max-width: 80%;
+    text-align: center;
+    max-width: 100%;
     min-width:320px;
     font-size: 20px;
     margin: auto;
@@ -114,7 +183,7 @@ header a:hover {
 }
 .produt h2{
     text-align: center;
-    max-width: 100%;
+    max-width: 80%;
     min-width:320px;
     margin: auto;
     padding-top: 50px;
@@ -126,7 +195,7 @@ header a:hover {
         "SOFT" 0,
         "WONK" 0;
         font-weight: 200;
-        font-size: clamp(50px, 5vw, 80px);
+        font-size: 300%;
         text-shadow:  rgba(0, 0, 0, 0.585) 0px 5px 15px;
         
 }
@@ -156,17 +225,38 @@ header a:hover {
     text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
     text-align: center;
     font-weight: 200;
+    
 }
 .caixa:hover{
     transition: 0.5s;
     width: 500px;
 }
+@media (max-width:768px){
+   .produtos{
+    display:flex;
+    flex-direction: column;
+    margin: 150px auto;
+    padding-bottom: 40%;
+    z-index: 8;
+   }
+   .masculinos{
+    position: relative;
+    padding-bottom : 750px;
+   }
+   .femeninos{
+    position: relative;
+    
+   }
+   .foto{
+    padding-top: 120px;
+   }
+
+}
 .essencial{
     max-width: 80%;
     min-width:320px;
     display: inline;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin: 45px 30px 25px 30px;
     width: 400px;
     border-radius: 20px 0px;
     box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px;
@@ -211,6 +301,9 @@ header a:hover {
     margin-top: 400px;
     margin-bottom: 300px;
 }
+.femeninos h2{
+    font-size: 300%;
+}
 
 .foto{
     display: inline;
@@ -227,16 +320,16 @@ header a:hover {
     font-weight: 200;
      max-width: 100%;
     min-width:320px;
+     font: size 180%;
     
 }
 .foto:hover{
-    transition: 5s;
-    width: 500px;
+     transition:0.5s;
+    width: 450px;
 }
 .EKOS{
     
-    margin-top: 50px;
-    margin-left: 70px;
+    margin: 30px auto;
     width: 300px;
     height: 300px;
     border-radius: 20px 0px;
@@ -244,33 +337,33 @@ header a:hover {
 }
 
 .EKOS:hover{
-    transition: 5s;
-    width: 400px;
-    height: 400px;
+    transition: 0.5s;
+    width: 350px;
+    height: 350px;
 }
 .UNA{
-    margin-top: 50px;
-    margin-left: 70px;
+    margin: 30px auto;
     width: 300px;
     height: 300px;
     border-radius: 20px 0px;
     box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px; 
 }
 .UNA:hover{
-    transition: 5s;
-    width: 400px;
-    height: 400px;
+   transition: 0.5s;
+    width: 350px;
+    height: 350px;
 }
 .beiond{
-    margin-top: 50px;
-    margin-left: 70px;
+    margin: 30px auto;
+    width: 400px;
+    height: 400px;
     width: 300px;
     height: 300px;
     border-radius: 20px 0px;
     box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px; 
 }
 .beiond:hover{
-    transition: 5s;
-    width: 400px;
-    height: 400px;
+   transition: 0.5s;
+    width: 350px;
+    height: 350px;
 }
