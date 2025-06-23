@@ -235,6 +235,9 @@ header a:hover {
     width: 300px;
 }
 @media (max-width:1258px){
+    body{
+         overflow-x: hidden;
+    }
    .produtos{
     display:flex;
     flex-direction: column;
@@ -245,7 +248,7 @@ header a:hover {
    .masculinos{
     position: relative;
     padding-bottom : 750px;
-    margin-right: 80px;
+    
    }
    .femeninos{
     position: relative;
