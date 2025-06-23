@@ -116,7 +116,7 @@ header a:hover {
     margin: auto;
     align-items: center;
    }
-   
+  
 }
 
 .instagram {
@@ -234,7 +234,7 @@ header a:hover {
 }
 .caixa:hover{
     transition: 0.5s;
-    width: 500px;
+    width: 300px;
 }
 @media (max-width:768px){
    .produtos{
@@ -268,7 +268,7 @@ header a:hover {
 }
 .essencial:hover{
     transition: 0.5s;
-    width: 500px;
+    width: 300px;
 }
 
 .homem{
@@ -282,7 +282,7 @@ header a:hover {
 }
 .homem:hover{
     transition: 0.5s;
-    width: 500px;
+    width: 300px;
 }
 
 .elo{
@@ -297,8 +297,8 @@ header a:hover {
 }
 .elo:hover{
     transition: 0.5s;
-    width: 450px;
-    height:250px     ;
+    width: 350px;
+    height:150px     ;
 }
 .femeninos{
     max-width: 80%;
