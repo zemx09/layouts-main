@@ -216,7 +216,7 @@ header a:hover {
 }
 .caixa{
     max-width: 80%;
-    min-width:320px;
+    min-width:300px;
     display: inline;
     border-radius:20px 0px ;
     padding-bottom: 80px;
