@@ -112,6 +112,10 @@ header a:hover {
     padding-bottom: -20px;
     transition: 0.5s;
    }
+   .produtos{
+    margin: auto;
+    align-items: center;
+   }
    
 }
 
@@ -172,6 +176,7 @@ header a:hover {
     height: 50px;
     display: flex;
     padding: 40px;
+    margin: auto;
 }
 .produt{
     max-width: 80%;
