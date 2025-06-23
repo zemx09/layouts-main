@@ -257,6 +257,9 @@ header a:hover {
    .foto{
     padding-top: 120px;
    }
+   .foto:hover{
+    width: 350px;;
+   }
 
 }
 .essencial{
@@ -332,7 +335,7 @@ header a:hover {
 }
 .foto:hover{
      transition:0.5s;
-    width: 450px;
+    width: 350px;
 }
 .EKOS{
     
