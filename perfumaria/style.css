@@ -265,7 +265,11 @@ header a:hover {
     padding-top: 120px;
    }
    .foto:hover{
-    width: 350px;;
+    width: 350px;
+   }
+   .hidratantes{
+    padding-top: 1500px;
+   
    }
 
 }
@@ -381,6 +385,81 @@ header a:hover {
 }
 .beiond:hover{
    transition: 0.5s;
+    width: 350px;
+    height: 350px;
+}
+.hidratantes{
+    max-width: 100%;
+    min-width: 320px;
+    margin-top: 400px;
+    margin-bottom: 300px;
+   
+}
+.hidratantes h2{
+      font-size: 300%;
+
+}
+.hidra{
+     display: inline;
+    border-radius:20px 0px ;
+    padding-bottom: 80px;
+    max-width: 400px;
+    min-width: 320px;
+    margin: 30px auto;
+}
+.hidra p{
+      margin: 20px auto;
+    text-shadow: rgba(0, 0, 0, 0.588) 0px 5px 15px;
+    text-align: center;
+    font-weight: 200;
+     max-width: 100%;
+    min-width:320px;
+     font: size 180%;
+}
+.hidra:hover{
+    transition:0.5s;
+    width: 350px;
+}
+
+.Eudora{
+    margin:30px auto;
+    width: 400px;
+    height: 400px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px; 
+}
+.Eudora:hover{
+    transition: 0.5s;
+    width: 350px;
+    height: 350px;
+}
+.natura{
+    margin: 30px auto;
+    width: 400px;
+    height: 400px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px; 
+}
+.natura:hover{
+    transition: 0.5s;
+    width: 350px;
+    height: 350px;
+}
+.avon{
+    margin: 30px auto;
+    width: 400px;
+    height: 400px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.423) 0px 5px 15px; 
+}
+.avon:hover{
+    transition: 0.5s;
     width: 350px;
     height: 350px;
 }
