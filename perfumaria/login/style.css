@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+body{
+     background: linear-gradient(120deg, #e1e1e1, #908787);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.login-contaiiner{
+    border:solid;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    border-radius: 10px;
+    width:400px;
+    height:550px;
+    max-width: 100%;
+    min-width: 320px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ffffffb9;
+}
+.login-contaiiner h2{
+    margin: 50px auto;
+    font-size: 50px;
+    
+}
+form{
+    flex-direction: column;
+    display: flex;
+}
+input{
+    margin-bottom:15px;
+    width: 250px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding: 11px;
+}
+.butom{
+    color: #fff;    
+    background-color: rgb(13, 13, 13);
+    border-radius: 50px;
+    
+    cursor: pointer;
+     margin-bottom:25px;
+    width: 250px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.butom:hover{
+    transition:0.5s;
+    width: 260px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 72, 72);
+}
+.butom a{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
