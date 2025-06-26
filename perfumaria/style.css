@@ -214,11 +214,12 @@ header a:hover {
     margin: auto;
 }
 .caixa{
-    display: inline;
+     display: inline;
     border-radius:20px 0px ;
     padding-bottom: 80px;
-    width: 400px;
-    margin: 30px;
+    max-width: 400px;
+    min-width: 320px;
+    margin: 30px auto;
 }
 .caixa p{
     margin-top: 20px;
@@ -317,7 +318,7 @@ header a:hover {
 }
 
 .foto{
-    display: inline;
+     display: inline;
     border-radius:20px 0px ;
     padding-bottom: 80px;
     max-width: 400px;
