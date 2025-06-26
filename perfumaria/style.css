@@ -235,6 +235,9 @@ header a:hover {
     width: 300px;
 }
 @media (max-width:1258px){
+    .top{
+        width: 100%;
+    }
     body{
          overflow-x: hidden;
     }
